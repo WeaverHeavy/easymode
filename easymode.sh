@@ -13,7 +13,7 @@ git clone https://github.com/brianwarehime/otx_transforms.git
 cp ~/otx_transforms/otx.py ~/Desktop
 cp ~/otx_transforms/alienvault.mtz ~/Desktop/
 
-echo ****************Done!****************
-echo ****************starting Maltego.....****************
+echo Done!
+echo starting Maltego.....
 maltego &
 
