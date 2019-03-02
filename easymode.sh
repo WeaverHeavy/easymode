@@ -6,7 +6,7 @@ cp ~/easymode/MISP_maltego.conf ~/.canari/MISP_maltego.conf
 git clone https://github.com/MISP/MISP-maltego.git 
 cd ~/MISP-maltego 
 sudo pip3 install . 
-canari create-profile MISP_maltego 
+canari create-profile MISP_maltego -y
 cp ~/MISP-maltego/MISP_maltego.mtz ~/Desktop
 cd ~/
 git clone https://github.com/brianwarehime/otx_transforms.git 
